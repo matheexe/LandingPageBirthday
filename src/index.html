@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.scss">
+    <title>Math's Birthday!</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">            
+            <nav class="navbar">
+                <ul class="navbar__menu">
+                    <li class="navbar__menu__item">
+                        <a href="https://github.com/matheexe" class="button button--navbtn">
+                            <img src="images/github-fill.png" alt="Logo GitHub">
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="hero">
+        <div class="hero__bg-text"
+                data-aos="zoom-in"
+                data-aos-duration="1200"
+                data-aos-easing="ease-out-cubic"> <!-- Modificadr do AOS -->
+                AINDA FALTAM
+        </div>
+        <div class="hero__countdown"
+                data-aos="fade-up"
+                data-aos-delay="400"
+                data-aos-duration="900"
+                data-aos-easing="ease-out-cubic"> <!-- Modificador do AOS -->
+            <span class="hero__countdown-label">aniversário — 26 de abril</span>
+            <div class="hero__countdown-units">
+                <div class="hero__unit">
+                    <span class="hero__unit-value" id="days">00</span>
+                    <span class="hero__unit-name">dias</span>
+                </div>
+                <span class="hero__sep">:</span>
+                <div class="hero__unit">
+                    <span class="hero__unit-value" id="hours">00</span>
+                    <span class="hero__unit-name">horas</span>
+                </div>
+                <span class="hero__sep">:</span>
+                <div class="hero__unit">
+                    <span class="hero__unit-value" id="mins">00</span>
+                    <span class="hero__unit-name">min</span>
+                </div>
+                <span class="hero__sep">:</span>
+                <div class="hero__unit">
+                    <span class="hero__unit-value" id="secs">00</span>
+                    <span class="hero__unit-name">seg</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./scripts/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+@use '../variables';
+
+.button{
+    text-align: center;
+    font-weight: bold;
+    white-space: nowrap;
+    transition: all 0.4s ease;
+
+    &--navbtn{
+
+        &:hover{
+            transform: scale(1.1);
+        }
+    }
+}
